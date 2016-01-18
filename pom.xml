@@ -87,8 +87,8 @@
   <name>Copy of Jahia FAQ</name>
   <description>These are the custom module (Jahia FAQ) for running on a Jahia server.</description>
   <scm>
-    <connection>scm:dummy:uri</connection>
-    <developerConnection>scm:dummy:uri</developerConnection>
+    <connection>scm:git:git@github.com:rvt/test.git</connection>
+    <developerConnection>scm:git:git@github.com:rvt/test.git</developerConnection>
   </scm>
   <repositories>
     <repository>
