@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1453142914822
+Build-Jdk: 1.8.0-ea
+Built-By: rvt
+Bundle-Category: jahia-module
+Bundle-Description: These are the custom module (Jahia FAQ) for running 
+ on a Jahia server.
+Bundle-DocURL: http://www.jahia.com
+Bundle-ManifestVersion: 2
+Bundle-Name: Copy of Jahia FAQ
+Bundle-SymbolicName: copy-of-jahia-faq
+Bundle-Vendor: Jahia Solutions Group SA
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Implementation-Title: Copy of Jahia FAQ
+Implementation-URL: http://www.jahia.com
+Implementation-Vendor: Jahia Solutions Group SA
+Implementation-Version: 1.0-SNAPSHOT
+Import-Package: org.apache.taglibs.standard.tag.rt.fmt,org.jahia.taglibs
+ .utility.i18n;version="[7.0,8)",org.jahia.taglibs.template.layoutmanage
+ r;version="[7.0,8)",org.jahia.taglibs.user;version="[7.0,8)",org.jahia.
+ taglibs.internal.date;version="[7.0,8)",org.jahia.exceptions,org.jahia.
+ services.render,org.jahia.taglibs;version="[7.0,8)",org.jahia.taglibs.j
+ cr.node;version="[7.0,8)",org.jahia.taglibs.jcr;version="[7.0,8)",org.a
+ pache.taglibs.standard.functions,org.jahia.taglibs.template.gwt;version
+ ="[7.0,8)",org.jahia.defaults.config.spring,org.jahia.services,org.jahi
+ a.taglibs.template.include;version="[7.0,8)",org.apache.taglibs.standar
+ d.tag.common.core,org.jahia.services.content.nodetypes,org.jahia.taglib
+ s.utility.constants;version="[7.0,8)",org.apache.taglibs.standard.tei,j
+ avax.jcr;version="[2.0,3)",org.jahia.taglibs.jcr.query;version="[7.0,8)
+ ",org.jahia.taglibs.template;version="[7.0,8)",org.apache.taglibs.unsta
+ ndard;version="[7.0,8)",org.jahia.services.content,org.jahia.taglibs.qu
+ ery;version="[7.0,8)",org.jahia.taglibs.template.pager;version="[7.0,8)
+ ",org.jahia.taglibs.utility.session;version="[7.0,8)",org.jahia.service
+ s.content.decorator,org.apache.taglibs.standard.tag.rt.core,org.jahia.t
+ aglibs.utility;version="[7.0,8)",org.jahia.taglibs.utility.siteproperti
+ es;version="[7.0,8)"
+Jahia-Depends: default
+Jahia-GroupId: org.jahia.modules
+Jahia-Module-Type: module
+Jahia-Required-Version: 7.0.0.0
+Jahia-Source-Control-Connection: scm:dummy:uri
+Jahia-Source-Control-DeveloperConnection: scm:dummy:uri
+Jahia-Source-Folders: /opt/Jahia_rvt_new/digital-factory-data/sources/co
+ py-of-jahia-faq
+Jahia-Static-Resources: /css,/icons,/images,/img,/javascript
+Provide-Capability: com.jahia.services.content; nodetypes:List<String>="
+ jnt:faq"
+Require-Capability: com.jahia.services.content; filter:="(nodetypes=jmix
+ :editorialContent)",com.jahia.services.content; filter:="(nodetypes=jmi
+ x:structuredContent)",com.jahia.services.content; filter:="(nodetypes=j
+ nt:content)",com.jahia.services.content; filter:="(nodetypes=jnt:conten
+ tFolder)",com.jahia.services.content; filter:="(nodetypes=jnt:folder)",
+ com.jahia.services.content; filter:="(nodetypes=jnt:module)",com.jahia.
+ services.content; filter:="(nodetypes=jnt:modules)",com.jahia.services.
+ content; filter:="(nodetypes=jnt:portletFolder)",com.jahia.services.con
+ tent; filter:="(nodetypes=jnt:templatesFolder)"
+Specification-Title: Copy of Jahia FAQ
+Specification-Vendor: Jahia Solutions Group SA
+Specification-Version: 1.0-SNAPSHOT
+Tool: Bnd-2.1.0.20130426-122213
